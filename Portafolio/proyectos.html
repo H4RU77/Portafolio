@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="interactividad.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <a href="sobre_mi.html" class="nav-link">Sobre mí</a>
+      <a href="proyectos.html" class="nav-link active">Proyectos</a>
+    </nav>
+  </header>
+
+  <section id="proyectos">
+    <div class="proyectos">
+      <div class="card">
+        <div class="project-card">
+          <h3>Astroclub</h3>
+          <img src="imgs/astroclub.jpeg" alt="Astroclub" class="project-image">
+          <h4>Descripción</h4>
+          <p>Astroclub es un club estudiantil del que soy fundadora y actualmente presidenta en CETYS Universidad, formado por estudiantes
+            apasionados por la astronomía y la divulgación científica.
+          </p>
+          <div class="extra-content" style="display: none;">
+            <p><strong>Objetivo</strong><br> Incentivar el gusto e interés por la astronomía y las ciencias en la comunidad estudiantil y de Ensenada a través de eventos, entrevistas y creación de contenido.</p>
+            <p><strong>Duración</strong><br> El club fue formado en agosto de 2024 y sigue activo actualmente.</p>
+            <p><strong>Impacto</strong><br> Colaboración con instituciones de investigación locales como UNAM y CISESE, divulgación científica en eventos de más de 4000 asistentes en la ciudad de Ensenada,
+              y difusión de iniciativas como Explora STEM que incentiva a los jóvenes a adentrarse a la tecnología. </p>
+            <p><strong>Elige una puntuación para este proyecto:</strong></p>
+      
+            <!-- Estrellas -->
+            <div class="rating-container">
+              <div class="stars">
+                <input type="radio" name="rating" id="astro1" value="1">
+                <label for="astro1" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="astro2" value="2">
+                <label for="astro2" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="astro3" value="3">
+                <label for="astro3" class="star">&#9733;</label>
+              </div>
+              <div class="rating-message" id="ratingMessage"></div>
+            </div>
+            
+          </div>
+        
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="project-card">
+          <h3>Haru Engineer</h3>
+          <img src="imgs/haruengineer.jpg" alt="Astroclub" class="project-image">
+          <h4>Descripción</h4>
+          <p>Haru Engineer es un canal de divulgación científica en Instagram con más de 3000 seguidores en el que comparto
+            experiencias, actividades, entrevistas y oportunidades para adentrarse al mundo STEM.
+          </p>
+          
+          <div class="extra-content" style="display: none;">
+            <p><strong>Objetivo</strong><br> Incentivar a más jóvenes a unirse a las áreas de ciencia y tecnología.</p>
+            <p><strong>Duración</strong><br> La cuenta fue creada en agosto de 2023 y hasta la fecha trabajo en este proyecto.</p>
+            <p><strong>Impacto</strong><br> Creación de una comunidad de más de 3000 personas interesadas en conocer más sobre ciencia y tecnología. </p>
+            <p><strong>Elige una puntuación para este proyecto:</strong></p>
+
+             <!-- Estrellas -->
+             <div class="rating-container">
+              <div class="stars">
+                <input type="radio" name="rating" id="haru1" value="1">
+                <label for="haru1" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="haru2" value="2">
+                <label for="haru2" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="haru3" value="3">
+                <label for="haru3" class="star">&#9733;</label>
+              </div>
+              <div class="rating-message" id="ratingMessage"></div>
+            </div>
+          </div>
+        
+          <p class="rating-message" id="rating-msg1"></p>
+        
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="project-card">
+          <h3>Ocultación por Polymele</h3>
+          <img src="imgs/polymele.jpg" alt="Polymele" class="project-image">
+          <h4>Descripción</h4>
+          <p>El evento de ocultación de Polymele fue un evento de observación astronómica en San Felipe, Baja California 
+            organizado por UNAM, CISESE y la misión Lucy de la NASA en el que participaron estudiantes de todo México.
+          </p>
+
+          <div class="extra-content" style="display: none;">
+            <p><strong>Objetivo</strong><br>Obtener la mayor cantidad de datos de la ocultación por Polymele en soporte a la misión Lucy de NASA que 
+              enviará una sonda espacial a estudiarlo en 2027.</p>
+            <p><strong>Duración</strong><br> La campaña tuvo una duración de 5 días, incluyendo exploración de terreno, prácticas y simulacros y la ocultación ocurrió durante la madrugada del 26 de febrero de 2024.</p>
+            <p><strong>Impacto</strong><br> Se recolectaron datos útiles para la misión Lucy de NASA que próximamente se publicarán en un artículo.</p>
+            <p><strong>Elige una puntuación para este proyecto:</strong></p>
+            
+             <!-- Estrellas -->
+             <div class="rating-container">
+              <div class="stars">
+                <input type="radio" name="rating" id="poly1" value="1">
+                <label for="poly1" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="poly2" value="2">
+                <label for="poly2" class="star">&#9733;</label>
+            
+                <input type="radio" name="rating" id="poly3" value="3">
+                <label for="poly3" class="star">&#9733;</label>
+              </div>
+              <div class="rating-message" id="ratingMessage"></div>
+            </div>
+          </div>
+
+          
+          <p class="rating-message" id="rating-msg1"></p>
+        
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="card">
+    <div class="project-card">
+      <h3>Formulario de interés</h3>
+      <h4>¿Quieres colaborar?</h4>
+      <form class="project-form" id="interestForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+  
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required min="1" max="98">
+  
+        <label for="ocupacion">Ocupación:</label>
+        <select id="ocupacion" name="ocupacion" required>
+          <option value="">Selecciona una opción</option>
+          <option value="Estudiante">Estudiante</option>
+          <option value="Profesor(a)">Profesor(a)</option>
+          <option value="Investigador(a)">Investigador(a)</option>
+          <option value="Divulgador(a)">Divulgador(a)</option>
+          <option value="Desarrollador(a)">Desarrollador(a)</option>
+          <option value="Otro">Otro</option>
+        </select>
+  
+        <label for="proyecto">¿En qué área te gustaría colaborar?</label>
+        <select id="proyecto" name="proyecto" required>
+          <option value="">Selecciona un proyecto</option>
+          <option value="Astroclub">Proyectos de investigación</option>
+          <option value="Divulgación STEM">Campañas de observación astronómica</option>
+          <option value="Charlas científicas">Charlas científicas</option>
+          <option value="Contenido digital">Creación de contenido digital</option>
+          <option value="Explora STEM">Evento Explora STEM</option>
+        </select>
+       
+        <p id="edadError" class="form-error" style="display: none;">Edad inválida. Debe ser entre 1 y 98 años.</p>
+        <p id="formError" class="form-error" style="display: none;">Por favor, completa todos los campos.</p>
+
+        
+  
+        <button id="enviar" type="button" class="btn">Enviar</button>
+      </form>
+      <p id="generalError" class="form-error" style="display: none;">Por favor, completa todos los campos correctamente.</p>
+      <div id="contactInfo" class="contacto" style="display: none;">
+        <p>Gracias por llenar el formulario. Puedes contactarme al correo <strong>haruengineerlab@gmail.com</strong> o en mis redes sociales.</p>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/haru.engineer_/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/harumi-lopez/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/H4RU77" target="_blank">GitHub</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Harumi Isela López Rodríguez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
